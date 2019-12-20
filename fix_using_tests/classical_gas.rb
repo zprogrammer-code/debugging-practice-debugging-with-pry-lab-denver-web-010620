@@ -9,8 +9,7 @@ class GasStation
 #def unleaded_price=(station)
  # station.unleaded_price = unleaded_price + 40
 #end
- 
- binding.pry
+
   def initialize(brand, unleaded_price)
   
     @brand = brand
