@@ -7,7 +7,7 @@ class GasStation
   # https://stackoverflow.com/questions/20018784/attr-accessor-vs-attr-reader-instance-variables/20018831
   attr_reader :brand, :unleaded_price
 def unleaded_price=(station)
-  station.unleaded_price = unleaded_price = 40
+  station.unleaded_price = unleaded_price + 40
 end
  
  
