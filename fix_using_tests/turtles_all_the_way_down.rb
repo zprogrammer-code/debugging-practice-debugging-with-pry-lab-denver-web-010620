@@ -13,8 +13,8 @@ def turtle_traits(turtles)
     
     turtle[:traits].each{ |trait|
      # binding.pry
-     
+     trait
     }
   }
-  return trait
+
 end
