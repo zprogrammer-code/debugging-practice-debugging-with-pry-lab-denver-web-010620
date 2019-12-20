@@ -17,7 +17,7 @@ def selection(num)
     return "HAM HAM HAM IN MY TUMMY"
 end
 end
-binding.pry
+#binding.pry
 def runner
   prompt_user
   selection(get_user_input)
